@@ -8,12 +8,12 @@ pip install requests beautifulsoup4 colorama
 
 ## Usage
 
-## 1. Check usernames from file
+### 1. Check usernames from file
 ```bash
 python -m src.main --file path/to/usernames.txt
 ```
 
-## 2. Generate and check usernames
+### 2. Generate and check usernames
 ```bash
 python -m src.main --letters 3
 ```
@@ -29,17 +29,17 @@ python -m src.main --letters 3
 \* Either --file or --letters must be specified, but not both.
 
 ## Examples
-## Check usernames from a file with custom output:
+#### Check usernames from a file with custom output:
 ```bash
 python -m src.main --file usernames.txt --output results.txt
 ```
 
-## Generate 4-letter usernames with 5 concurrent workers:
+#### Generate 4-letter usernames with 5 concurrent workers:
 ```bash
 python -m src.main --letters 4 --workers 5
 ```
 
-## Check usernames with increased delay between requests:
+#### Check usernames with increased delay between requests:
 ```bash
 python -m src.main --file usernames.txt --delay 2
 ```
