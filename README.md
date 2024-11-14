@@ -1,5 +1,5 @@
 <div style="border: 2px solid yellow; color: white; background-color: rgba(255, 255, 0, 0.5); padding: 10px;">
-    <p>This is a personal project and may not fully align with your specific needs or requirements. Please review the features and functionality to ensure it meets your expectations before using it in your own projects.</p>
+    <p>This is a personal project and may not fully align with your specific needs or requirements. Please review the features and functionality to ensure it meets your expectations before using it.</p>
 </div>
 
 ## Installation
